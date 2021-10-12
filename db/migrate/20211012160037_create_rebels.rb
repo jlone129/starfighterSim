@@ -8,6 +8,7 @@ class CreateRebels < ActiveRecord::Migration[6.1]
       t.integer :speed
       t.boolean :boost
       t.string :type
+      t.string :img_url
 
       t.timestamps
     end
