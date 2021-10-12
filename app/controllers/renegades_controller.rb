@@ -1,0 +1,2 @@
+class RenegadesController < ApplicationController
+end

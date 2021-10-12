@@ -1,0 +1,2 @@
+class ImperialsController < ApplicationController
+end
