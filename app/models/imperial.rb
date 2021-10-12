@@ -1,0 +1,2 @@
+class Imperial < ApplicationRecord
+end

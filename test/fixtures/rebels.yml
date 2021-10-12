@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  hitpoints: 1
+  shield: 1
+  status: MyString
+  speed: 1
+  boost: false
+  type: 
+
+two:
+  name: MyString
+  hitpoints: 1
+  shield: 1
+  status: MyString
+  speed: 1
+  boost: false
+  type: 
