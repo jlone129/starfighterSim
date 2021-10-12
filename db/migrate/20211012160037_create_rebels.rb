@@ -4,6 +4,7 @@ class CreateRebels < ActiveRecord::Migration[6.1]
       t.string :name
       t.integer :hitpoints
       t.integer :shield
+      t.integer :attack
       t.string :status
       t.integer :speed
       t.boolean :boost
