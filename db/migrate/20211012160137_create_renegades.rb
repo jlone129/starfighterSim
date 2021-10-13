@@ -5,6 +5,7 @@ class CreateRenegades < ActiveRecord::Migration[6.1]
       t.integer :hitpoints
       t.integer :shield
       t.integer :attack
+      t.integer :cost
       t.string :status
       t.integer :speed
       t.boolean :boost
