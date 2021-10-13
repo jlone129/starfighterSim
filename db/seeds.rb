@@ -14,15 +14,15 @@ Rebel.create([
 ])
 
 Imperial.create([
-    { name: "Tie Fighter", hitpoints: 200, shield: 0, attack: rand(35..55), status: "Stable", speed: 3, boost: false, type: "Fighter", img_url:  },
-    { name: "Tie Interceptor", hitpoints: 150, shield: 0, attack: rand(20..40), status: "Stable", speed: 5, boost: false, type: "Interceptor", img_url:  },
-    { name: "Tie Bomber", hitpoints: 350, shield: 100, attack: rand(40..60), status: "Stable", speed: 2, boost: false, type: "Bomber", img_url:  },
-    { name: "Tie Hunter", hitpoints: 200, shield: 150, attack: rand(45..75), status: "Stable", speed: 3, boost: false, type: "Heavy Assault Fighter", img_url:  },
+    { name: "Tie Fighter", hitpoints: 200, shield: 0, attack: rand(35..55), status: "Stable", speed: 3, boost: false, type: "Fighter", img_url: "https://toppng.com/uploads/preview/tie-fighter-star-wars-transparent-images-tie-fighter-png-transparent-11563015568vvbnksepcb.png" },
+    { name: "Tie Interceptor", hitpoints: 150, shield: 0, attack: rand(20..40), status: "Stable", speed: 5, boost: false, type: "Interceptor", img_url: "https://static.wikia.nocookie.net/disney/images/4/4e/TIE_Interceptor_DICE.png/revision/latest?cb=20161024083223" },
+    { name: "Tie Bomber", hitpoints: 350, shield: 100, attack: rand(40..60), status: "Stable", speed: 2, boost: false, type: "Bomber", img_url: "https://www.models-resource.com/resources/big_icons/9/8522.png" },
+    { name: "Tie Hunter", hitpoints: 200, shield: 150, attack: rand(45..75), status: "Stable", speed: 3, boost: false, type: "Heavy Assault Fighter", img_url: "http://fractalsponge.net/wp/wp-content/uploads/2017/10/hunter22.jpg" },
 ])
 
 Renegade.create([
-    { name: "Cloud Car", hitpoints: 100, shield: 0, attack: rand(20..35), status: "Stable", speed: 2, boost: , type: , img_url:  },
-    { name: "T-16 Skyhopper", hitpoints: 175, shield: 0, attack: rand(30..45), status: "Stable", speed: 3, boost: , type: , img_url:  },
-    { name: "N-1 Starfighter", hitpoints: 125, shield: 150, attack: rand(30..50), status: "Stable", speed: 4, boost: , type: , img_url:  },
-    { name: "Arc-170 Starfighter", hitpoints: 200, shield: 200, attack: rand(40..75), status: "Stable", speed: 4, boost: , type: , img_url:  },
+    { name: "Cloud Car", hitpoints: 100, shield: 0, attack: rand(20..35), status: "Stable", speed: 2, boost: false, type: "Patrol Vehicle", img_url: "https://static.wikia.nocookie.net/starwars/images/3/3b/Cloud-car-v2.png/revision/latest?cb=20160617064429" },
+    { name: "T-16 Skyhopper", hitpoints: 175, shield: 0, attack: rand(30..45), status: "Stable", speed: 3, boost: false, type: "Airspeeder", img_url: "https://static.wikia.nocookie.net/starwars/images/4/4d/T16skyhopper_negvv.png/revision/latest?cb=20170411234939" },
+    { name: "N-1 Starfighter", hitpoints: 125, shield: 150, attack: rand(30..50), status: "Stable", speed: 4, boost: false, type: "Fighter", img_url: "https://iconarchive.com/download/i61911/jonathan-rey/star-wars-vehicles/Naboo-Fighter.ico" },
+    { name: "Arc-170 Starfighter", hitpoints: 200, shield: 200, attack: rand(40..75), status: "Stable", speed: 4, boost: false, type: "Heavy Assault Fighter", img_url: "https://static.wikia.nocookie.net/swse/images/2/29/ARC-170_Starfighter.png/revision/latest?cb=20171105185415" },
 ])
