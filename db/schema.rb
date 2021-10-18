@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2021_10_15_180122) do
     t.string "status"
     t.integer "speed"
     t.boolean "boost"
-    t.string "type"
+    t.string "ship_type"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 2021_10_15_180122) do
     t.string "status"
     t.integer "speed"
     t.boolean "boost"
-    t.string "type"
+    t.string "ship_type"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -60,7 +60,7 @@ ActiveRecord::Schema.define(version: 2021_10_15_180122) do
     t.string "status"
     t.integer "speed"
     t.boolean "boost"
-    t.string "type"
+    t.string "ship_type"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
