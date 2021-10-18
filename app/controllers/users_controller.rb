@@ -14,7 +14,7 @@ class UsersController < ApplicationController
     end
 
     def create
-        @user = User.create(user_params)
+        User.create(user_params)
     end
 
     def edit
@@ -22,11 +22,13 @@ class UsersController < ApplicationController
     end
 
     def update
-
+        @user.update!(user_params)
+        redirect_to user
     end
 
     def destroy
-
+        @user.destroy
+        redirect_to users, :notice => "You have successfully deleted your profile"
     end
 
     private
