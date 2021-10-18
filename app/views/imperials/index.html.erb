@@ -1,1 +1,32 @@
 <h1>Imperial Army Supreme</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Hitpoints</th>
+            <th>Shield</th>
+            <th>Attack</th>
+            <th>Cost</th>
+            <th>Status</th>
+            <th>Speed</th>
+            <th>Ship_type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @imperials.map do | imperial | %>
+        <tr>
+            <td><%= link_to image_tag(imperial.img_url, alt: imperial.name, size: "150x150") + "", imperial %> </td>
+            <th><%= link_to imperial.name, imperial %></th>
+            <td><%= imperial.hitpoints %></td>
+            <td><%= imperial.shield %></td>
+            <td><%= imperial.attack %></td>
+            <td><%= number_to_currency(imperial.cost, locale: :en, precision: 0) %></td>
+            <td><%= imperial.status %></td>
+            <td><%= imperial.speed %></td>
+            <td><%= imperial.ship_type %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
