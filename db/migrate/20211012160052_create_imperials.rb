@@ -9,7 +9,7 @@ class CreateImperials < ActiveRecord::Migration[6.1]
       t.string :status
       t.integer :speed
       t.boolean :boost
-      t.string :type
+      t.string :ship_type
       t.string :img_url
 
       t.timestamps
